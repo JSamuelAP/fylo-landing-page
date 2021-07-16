@@ -23,32 +23,62 @@
     </style>
   </head>
   <body>
-    <h1 class="text-primary">Hola mundo</h1>
-    Features Team Sign In All your files in one secure location, accessible
-    anywhere. Fylo stores your most important files in one secure location.
-    Access them wherever you need, share and collaborate with friends, family,
-    and co-workers. Get Started Stay productive, wherever you are Never let
-    location be an issue when accessing your files. Fylo has you covered for all
-    of your file storage needs. Securely share files and folders with friends,
-    family and colleagues for live collaboration. No email attachments required!
-    See how Fylo works Fylo has improved our team productivity by an order of
-    magnitude. Since making the switch our team has become a well-oiled
-    collaboration machine. Kyle Burton Founder & CEO, Huddle Get early access
-    today It only takes a minute to sign up and our free starter tier is
-    extremely generous. If you have any questions, our support team would be
-    happy to help you. Get Started For Free Phone: +1-543-123-4567
-    example@fylo.com About Us Jobs Press Blog Contact Us Terms Privacy
-    <button class="btn btn-secondary">Hola</button>
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor
-        </a>
-        . Coded by
-        <a href="#">Your Name Here</a>
-        .
-      </p>
-    </footer>
+    <header class="header pt-2">
+      <nav class="navbar fixed-top bg-white">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="images/logo.svg" alt="Logo de Fylo" />
+          </a>
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#">Sign In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container mt-5 pt-5">
+        <div class="row gy-5 text-center">
+          <div class="col-12 col-md-6">
+            <img
+              src="images/illustration-1.svg"
+              alt="Personas buscando en una carpeta"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <h2 class="text-primary fw-bold">
+              All your files in one secure location, accessible anywhere.
+            </h2>
+            <p class="text-primary mt-4">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <form class="mt-4">
+              <div class="row gy-3">
+                <div class="col-12">
+                  <input
+                    type="email"
+                    class="form-control border border-primary"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-bright-blue w-100">
+                    Get Started
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>

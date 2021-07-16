@@ -26,3 +26,13 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+/*
+ * Header
+ */
+.navbar-brand img {
+  width: 5rem;
+}
+input[type="email"]::placeholder {
+  color: map-get($map: $theme-colors, $key: light-gray);
+}

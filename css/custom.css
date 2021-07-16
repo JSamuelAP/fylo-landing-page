@@ -11994,4 +11994,27 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+/*
+ * Header
+ */
+.navbar-brand img {
+  width: 5rem;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+input[type="email"]:-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+input[type="email"]::-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+input[type="email"]::placeholder {
+  color: #bfbfbf;
+}
 /*# sourceMappingURL=custom.css.map */
