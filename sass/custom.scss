@@ -1,1 +1,28 @@
+/*
+ * Typography
+ */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+$font-family-base: "Open Sans", sans-serif;
+$headings-font-family: "Raleway", sans-serif;
+$headings-font-weight: 400;
+
+/*
+ * Colors
+ */
+$primary: hsl(243, 87%, 12%);
+$secondary: hsl(238, 22%, 44%);
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$custom-colors: (
+  "bright-blue": hsl(224, 93%, 58%),
+  "moderate-cyan": hsl(170, 45%, 43%),
+  "light-grayish-blue": hsl(240, 75%, 98%),
+  "light-gray": hsl(0, 0%, 75%),
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
 @import "../node_modules/bootstrap/scss/bootstrap";
