@@ -36,3 +36,25 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 input[type="email"]::placeholder {
   color: map-get($map: $theme-colors, $key: light-gray);
 }
+/*
+ * Main
+ */
+.icon-arrow {
+  width: 20px;
+}
+.card {
+  width: 80%;
+  .card-body {
+    font-size: 0.8rem;
+  }
+}
+.testimonial-img {
+  width: 35px;
+}
+.testimonial-name {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+.testimonial-position {
+  font-size: 0.6rem;
+}

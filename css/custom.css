@@ -12017,4 +12017,32 @@ input[type="email"]::-ms-input-placeholder {
 input[type="email"]::placeholder {
   color: #bfbfbf;
 }
+
+/*
+ * Main
+ */
+.icon-arrow {
+  width: 20px;
+}
+
+.card {
+  width: 80%;
+}
+
+.card .card-body {
+  font-size: 0.8rem;
+}
+
+.testimonial-img {
+  width: 35px;
+}
+
+.testimonial-name {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.testimonial-position {
+  font-size: 0.6rem;
+}
 /*# sourceMappingURL=custom.css.map */
