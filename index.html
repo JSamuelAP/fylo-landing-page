@@ -23,8 +23,8 @@
     </style>
   </head>
   <body>
-    <header class="header pt-2 mb-5">
-      <nav class="navbar fixed-top bg-white">
+    <header class="header pt-2 pt-md-4 mb-5">
+      <nav class="navbar fixed-top bg-white py-md-3">
         <div class="container">
           <a href="#" class="navbar-brand">
             <img src="images/logo.svg" alt="Logo de Fylo" />
@@ -43,15 +43,15 @@
         </div>
       </nav>
       <div class="container mt-5 pt-5">
-        <div class="row gy-5 text-center">
-          <div class="col-12 col-md-6">
+        <div class="row gy-5 gy-md-0 text-center">
+          <div class="col-12 col-md-6 order-md-2">
             <img
               src="images/illustration-1.svg"
               alt="Personas buscando en una carpeta"
               class="img-fluid"
             />
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 order-md-1 pt-lg-5">
             <h2 class="text-primary fw-bold">
               All your files in one secure location, accessible anywhere.
             </h2>
@@ -61,15 +61,15 @@
               family, and co-workers.
             </p>
             <form class="mt-4">
-              <div class="row gy-3">
-                <div class="col-12">
+              <div class="row gy-3 gy-md-0 gx-3">
+                <div class="col-12 col-md-7">
                   <input
                     type="email"
                     class="form-control border border-primary"
                     placeholder="Enter your email"
                   />
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-md-5">
                   <button type="submit" class="btn btn-bright-blue w-100">
                     Get Started
                   </button>
@@ -81,49 +81,63 @@
       </div>
     </header>
     <main class="main pt-5">
-      <picture>
+      <picture class="d-block">
         <source
           media="(min-width: 992px)"
           srcset="images/bg-curve-desktop.svg"
         />
-        <img src="images/bg-curve-mobile.svg" alt="" />
+        <img src="images/bg-curve-mobile.svg" class="img-fluid w-100" alt="" />
       </picture>
-      <div class="bg-light-grayish-blue text-center pt-5">
+      <div class="bg-light-grayish-blue pt-5 pt-md-1">
         <div class="container">
-          <div class="row gy-5">
-            <div class="col-12">
+          <div class="row gy-5 gy-md-0">
+            <div class="col-12 col-md-5 order-md-2">
               <img
                 src="images/illustration-2.svg"
                 class="img-fluid"
                 alt="Personas colocando mensajes"
               />
             </div>
-            <div class="col-12">
-              <h3 class="h6 fw-bold text-primary my-4">
+            <div class="col-12 col-md-7 order-md-1">
+              <h2 class="h6 fw-bold text-primary text-center my-4">
                 Stay productive, wherever you are
-              </h3>
-              <p class="text-start text-secondary">
+              </h2>
+              <p class="text-secondary">
                 Never let location be an issue when accessing your files. Fylo
                 has you covered for all of your file storage needs.
               </p>
-              <p class="text-start text-secondary mb-4">
+              <p class="text-secondary mb-4">
                 Securely share files and folders with friends, fammily and
                 colleagues for live collaboration. No email attachments
                 required!
               </p>
-              <a
-                href="#"
-                class="
-                  border-bottom border-moderate-cyan
-                  text-decoration-none text-moderate-cyan
-                  py-1
-                "
-              >
-                See how Fylo works
-                <img src="images/icon-arrow.svg" class="icon-arrow" alt="->" />
-              </a>
+              <p class="text-center">
+                <a
+                  href="#"
+                  class="
+                    border-bottom border-moderate-cyan
+                    text-decoration-none text-moderate-cyan
+                    py-1
+                  "
+                >
+                  See how Fylo works
+                  <img
+                    src="images/icon-arrow.svg"
+                    class="icon-arrow"
+                    alt="->"
+                  />
+                </a>
+              </p>
               <article
-                class="card text-start my-5 mx-auto px-2 shadow-lg border-0"
+                class="
+                  card
+                  text-start
+                  my-5
+                  mx-auto mx-md-0
+                  px-2
+                  shadow-lg
+                  border-0
+                "
               >
                 <div class="card-body">
                   <img src="images/icon-quotes.svg" alt="“" />
@@ -158,9 +172,9 @@
       </div>
     </main>
     <section class="contact py-5 bg-secondary">
-      <div class="container">
+      <div class="container my-4">
         <div class="row gy-2">
-          <div class="col-12 text-center text-white">
+          <div class="col-12 col-md-6 text-center text-white">
             <h5 class="fw-bold">Get early access today</h5>
             <p>
               It only takes a minute to sign up and our free starter tier is
@@ -168,9 +182,9 @@
               would be happy to help you.
             </p>
           </div>
-          <div class="col-12">
-            <form class="px-5">
-              <div class="d-grid gap-2">
+          <div class="col-12 col-md-6">
+            <form class="px-5 px-md-0">
+              <div class="d-grid gap-2 gap-md-3">
                 <input
                   type="email"
                   class="form-control"
@@ -186,10 +200,10 @@
       </div>
     </section>
     <footer class="py-5 bg-primary text-white fw-light">
-      <div class="container">
+      <div class="container mt-md-5">
         <img src="images/logo-white.svg" alt="Logo de Fylo" />
         <div class="row gy-3 mt-3">
-          <div class="col-12">
+          <div class="col-12 col-md-3">
             <p>
               <img src="images/icon-phone.svg" alt="" />
               <span class="ms-3">Phone: +1-543-123-4567</span>
@@ -199,7 +213,7 @@
               <span class="ms-3">example@fylo.com</span>
             </p>
           </div>
-          <div class="col-12">
+          <div class="col-12 col-md-3">
             <ul class="list-unstyled">
               <li class="py-1">
                 <a href="#" class="text-decoration-none">About Us</a>
@@ -215,7 +229,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-12">
+          <div class="col-12 col-md-3">
             <ul class="list-unstyled">
               <li class="py-1">
                 <a href="#" class="text-decoration-none">Contact Us</a>
@@ -228,7 +242,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-12">
+          <div class="col-12 col-md-3">
             <div class="d-flex justify-content-center">
               <a
                 href="https://facebook.com"

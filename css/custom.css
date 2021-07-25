@@ -12003,6 +12003,15 @@ fieldset:disabled .btn {
   width: 5rem;
 }
 
+@media (min-width: 768px) {
+  .header h2, .header .h2 {
+    text-align: left;
+  }
+  .header p {
+    text-align: left;
+  }
+}
+
 input[type="email"]::-webkit-input-placeholder {
   color: #bfbfbf;
 }
@@ -12022,12 +12031,23 @@ input[type="email"]::placeholder {
 /*
  * Main
  */
+@media (min-width: 768px) {
+  .main h2, .main .h2 {
+    text-align: left !important;
+    font-size: 1.5rem;
+  }
+  .main p.text-center {
+    text-align: left !important;
+  }
+}
+
 .icon-arrow {
   width: 20px;
 }
 
 .card {
   width: 80%;
+  max-width: 300px;
 }
 
 .card .card-body {
@@ -12045,6 +12065,18 @@ input[type="email"]::placeholder {
 
 .testimonial-position {
   font-size: 0.6rem;
+}
+
+/*
+ * Contact
+ */
+@media (min-width: 768px) {
+  .contact div.text-center {
+    text-align: left !important;
+  }
+  .contact button {
+    width: 46%;
+  }
 }
 
 /*

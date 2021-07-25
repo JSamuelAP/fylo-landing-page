@@ -34,17 +34,38 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 .navbar-brand img {
   width: 5rem;
 }
+@include media-breakpoint-up(md) {
+  .header h2 {
+    text-align: left;
+  }
+  .header p {
+    text-align: left;
+  }
+}
+
 input[type="email"]::placeholder {
   color: map-get($map: $theme-colors, $key: light-gray);
 }
 /*
  * Main
  */
+@include media-breakpoint-up(md) {
+  .main {
+    h2 {
+      text-align: left !important;
+      font-size: 1.5rem;
+    }
+    p.text-center {
+      text-align: left !important;
+    }
+  }
+}
 .icon-arrow {
   width: 20px;
 }
 .card {
   width: 80%;
+  max-width: 300px;
   .card-body {
     font-size: 0.8rem;
   }
@@ -58,6 +79,17 @@ input[type="email"]::placeholder {
 }
 .testimonial-position {
   font-size: 0.6rem;
+}
+/*
+ * Contact
+ */
+@include media-breakpoint-up(md) {
+  .contact div.text-center {
+    text-align: left !important;
+  }
+  .contact button {
+    width: 46%;
+  }
 }
 /*
  * Footer
