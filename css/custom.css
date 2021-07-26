@@ -12004,6 +12004,9 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 768px) {
+  .navbar-brand img {
+    width: 8rem;
+  }
   .header h2, .header .h2 {
     text-align: left;
   }

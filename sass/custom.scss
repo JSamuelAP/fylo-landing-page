@@ -35,6 +35,9 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   width: 5rem;
 }
 @include media-breakpoint-up(md) {
+  .navbar-brand img {
+    width: 8rem;
+  }
   .header h2 {
     text-align: left;
   }
