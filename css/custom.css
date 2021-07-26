@@ -12093,4 +12093,22 @@ a {
   width: 2rem;
   height: 2rem;
 }
+
+/*
+ * Active states
+ */
+.btn-bright-blue:hover {
+  background-color: #6b9bff;
+  border-color: #6b9bff;
+}
+
+.text-moderate-cyan:hover {
+  color: #49c9b3 !important;
+  border-color: currentColor !important;
+}
+
+.footer a:hover {
+  color: #585989;
+  border-color: currentColor !important;
+}
 /*# sourceMappingURL=custom.css.map */
