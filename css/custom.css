@@ -12111,4 +12111,11 @@ a {
   color: #585989;
   border-color: currentColor !important;
 }
+
+/*
+ * Invalid forms
+ */
+.was-validated input:invalid {
+  border-color: #dc3545 !important;
+}
 /*# sourceMappingURL=custom.css.map */

@@ -119,3 +119,9 @@ a {
   color: $secondary;
   border-color: currentColor !important;
 }
+/*
+ * Invalid forms
+ */
+.was-validated input:invalid {
+  border-color: $red !important;
+}
